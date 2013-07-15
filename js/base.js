@@ -7,7 +7,6 @@ var _threshHoldVal = 5;
 var _checkInterval = 1000;
 var blurOut;
 $(document).ready(function(){			
-	slideOutTopDiv();
 	$("#openTopMenu").click(function(){
 		if($("#logoSearchBox").is(":visible"))
 		{
