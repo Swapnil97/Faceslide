@@ -8,12 +8,6 @@ var _checkInterval = 1000;
 var blurOut;
 $(document).ready(function(){			
 	slideOutTopDiv();
-	$("#logoSearchBox").mouseleave(function(){
-		slideOutTopDiv();
-	}).mouseenter(function(){
-		// If user focuses on the div, clear the timeout.
-		clearTimeout(blurOut);
-	})
 	$("#openTopMenu").click(function(){
 		if($("#logoSearchBox").is(":visible"))
 		{
